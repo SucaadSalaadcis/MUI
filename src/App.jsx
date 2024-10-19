@@ -5,6 +5,7 @@ import CheckBoxEx from './components/CheckBoxEx'
 import RatingEx from './components/RatingEx'
 import SelectEx from './components/SelectEx'
 import SliderEx from './components/SliderEx'
+import SwitchEx from './components/SwitchEx'
 
 
 export default function App() {
@@ -22,6 +23,7 @@ export default function App() {
         <RatingEx />
         <SelectEx />
         <SliderEx />
+        <SwitchEx />
       </div>
 
     </>
