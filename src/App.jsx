@@ -6,6 +6,7 @@ import RatingEx from './components/RatingEx'
 import SelectEx from './components/SelectEx'
 import SliderEx from './components/SliderEx'
 import SwitchEx from './components/SwitchEx'
+import TextFieldEx from './components/TextFieldEx'
 
 
 export default function App() {
@@ -24,6 +25,7 @@ export default function App() {
         <SelectEx />
         <SliderEx />
         <SwitchEx />
+        <TextFieldEx />
       </div>
 
     </>
