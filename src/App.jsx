@@ -8,6 +8,7 @@ import SliderEx from './components/SliderEx'
 import SwitchEx from './components/SwitchEx'
 import TextFieldEx from './components/TextFieldEx'
 import AvatarEx from './components/AvaterEx'
+import BadgeEx from './components/BadgeEx'
 
 
 export default function App() {
@@ -30,6 +31,7 @@ export default function App() {
       </div>
       <div style={{ display: 'flex', gap: '6px' }}>
         <AvatarEx />
+        <BadgeEx />
       </div>
 
     </>
