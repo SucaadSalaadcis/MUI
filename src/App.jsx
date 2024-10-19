@@ -7,6 +7,7 @@ import SelectEx from './components/SelectEx'
 import SliderEx from './components/SliderEx'
 import SwitchEx from './components/SwitchEx'
 import TextFieldEx from './components/TextFieldEx'
+import AvatarEx from './components/AvaterEx'
 
 
 export default function App() {
@@ -26,6 +27,9 @@ export default function App() {
         <SliderEx />
         <SwitchEx />
         <TextFieldEx />
+      </div>
+      <div style={{ display: 'flex', gap: '6px' }}>
+        <AvatarEx />
       </div>
 
     </>
