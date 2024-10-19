@@ -4,6 +4,7 @@ import ButtonsEx from './components/ButtonsEx'
 import CheckBoxEx from './components/CheckBoxEx'
 import RatingEx from './components/RatingEx'
 import SelectEx from './components/SelectEx'
+import SliderEx from './components/SliderEx'
 
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
       <div style={{ display: 'flex', gap: '6px' }}>
         <RatingEx />
         <SelectEx />
+        <SliderEx />
       </div>
 
     </>
