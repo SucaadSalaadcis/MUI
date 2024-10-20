@@ -9,6 +9,7 @@ import SwitchEx from './components/SwitchEx'
 import TextFieldEx from './components/TextFieldEx'
 import AvatarEx from './components/AvaterEx'
 import BadgeEx from './components/BadgeEx'
+import TooltipEx from './components/TooltipEx'
 
 
 export default function App() {
@@ -25,13 +26,14 @@ export default function App() {
       <div style={{ display: 'flex', gap: '6px' }}>
         <RatingEx />
         <SelectEx />
-        <SliderEx />
         <SwitchEx />
         <TextFieldEx />
       </div>
       <div style={{ display: 'flex', gap: '6px' }}>
+        <SliderEx />
         <AvatarEx />
         <BadgeEx />
+        <TooltipEx/>
       </div>
 
     </>

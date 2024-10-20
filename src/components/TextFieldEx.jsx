@@ -29,7 +29,6 @@ export default function TextFieldEx() {
                     label="Password"
                     type="password"
                     autoComplete="current-password"
-                    sx={{marginTop: '10px'}}
                 />
                 <TextField
                     id="outlined-read-only-input"
