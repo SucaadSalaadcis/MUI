@@ -11,6 +11,7 @@ import AvatarEx from './components/AvaterEx'
 import BadgeEx from './components/BadgeEx'
 import TooltipEx from './components/TooltipEx'
 import TypographyEx from './components/TypographyEx'
+import AlertEx from './components/AlertEx'
 
 
 export default function App() {
@@ -37,6 +38,7 @@ export default function App() {
         <TooltipEx />
         <TypographyEx />
       </div>
+        <AlertEx />
 
     </>
   )
