@@ -10,6 +10,7 @@ import TextFieldEx from './components/TextFieldEx'
 import AvatarEx from './components/AvaterEx'
 import BadgeEx from './components/BadgeEx'
 import TooltipEx from './components/TooltipEx'
+import TypographyEx from './components/TypographyEx'
 
 
 export default function App() {
@@ -33,7 +34,8 @@ export default function App() {
         <SliderEx />
         <AvatarEx />
         <BadgeEx />
-        <TooltipEx/>
+        <TooltipEx />
+        <TypographyEx />
       </div>
 
     </>
